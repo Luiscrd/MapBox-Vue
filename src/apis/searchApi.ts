@@ -5,7 +5,7 @@ const searchApi = axios.create({
     params: {
        limit: 5,
        language: 'es',
-       access_token: 'pk.eyJ1IjoibGNhcmJhbGxvIiwiYSI6ImNsN3B1M3IyMTBhcnUzbnBmdnFmdjR2OHcifQ.9k9OOjEOlFMMbir6XPk05g'
+       access_token: process.env.MAPBOX_KEY3,
     }
 })
 

@@ -9,7 +9,7 @@ const directionsApiExt = axios.create({
        language: 'es',
        overview: 'full',
        steps: true,
-       access_token: 'pk.eyJ1IjoibGNhcmJhbGxvIiwiYSI6ImNsN3B1M3IyMTBhcnUzbnBmdnFmdjR2OHcifQ.9k9OOjEOlFMMbir6XPk05g'
+       access_token: process.env.MAPBOX_KEY2,
     }
 })
 
